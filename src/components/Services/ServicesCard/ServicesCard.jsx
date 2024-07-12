@@ -1,16 +1,16 @@
 import React from "react";
 import "./services-card.css";
 
-export const ServicesCard = ({ image, tags, title }) => {
+export const ServicesCard = ({ title, description, gpa, year }) => {
   return (
     <div className="services-card">
-      <img src={image} alt={title} />
       <h2>{title}</h2>
-      <div className="tags">
-        {tags?.map((tag, index) => (
-          <span key={index}>{tag}</span>
-        ))}
-      </div>
+      <h4>{description}</h4>
+      <br />
+      <h6>
+        Year: {year} {gpa && `, GPA: ${gpa}`}
+      </h6>
+      <br />
     </div>
   );
 };

@@ -1,16 +1,16 @@
-import React from "react"
-import Typed from "react-typed"
+import React from "react";
+import Typed from "react-typed";
 
 // SVG
-import man from "images/dev.svg"
+import man from "images/dev.svg";
 
 // Animation
-import { Link } from "react-scroll"
-import { motion } from "framer-motion"
+import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 // CSS
-import "./home.css"
-import Button from "components/Button/Button"
+import "./home.css";
+import Button from "components/Button/Button";
 
 const contentVariants = {
   initial: {
@@ -26,7 +26,7 @@ const contentVariants = {
       when: "beforeChildren",
     },
   },
-}
+};
 
 const Home = () => {
   return (
@@ -38,15 +38,15 @@ const Home = () => {
         animate="animate"
       >
         <h2>Peace be upon you !</h2>
-        <h1>I’m Junaid</h1>
+        <h1>I’m Nayab Ashraf</h1>
+        <h4 style={{ margin: "10px 0px"}}>Email Address: nayabashraf07@gmail.com</h4>
+        <h4>Phone: +92 332 5179800</h4>
+
         <p style={{ fontSize: "1.2rem ", fontWeight: "600" }}>
-          I am a
+
           <span style={{ marginLeft: "8px" }}>
             <Typed
-              strings={[
-                "Fullstack Engineer (Stay Gold USA)",
-                "Founder and CEO (Devnito UAE)",
-              ]}
+              strings={["I am a Student at NUML", "I'm currently doing Intership at Inotech Solutions"]}
               typeSpeed={60}
               backSpeed={60}
               loop
@@ -54,7 +54,6 @@ const Home = () => {
           </span>
         </p>
         <Link
-          // className="home-btn"
           to={"portfolio"}
           hashSpy={true}
           spy={true}
@@ -75,7 +74,7 @@ const Home = () => {
         <img src={man} alt="Developer" />
       </motion.div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

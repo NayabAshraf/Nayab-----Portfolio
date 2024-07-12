@@ -15,15 +15,17 @@ const Services = ({ services }) => {
       name="services"
       id="services"
     >
-      <Heading text="Services" />
+      <Heading text="Education & Training" />
       <div className="services-cards">
         {services &&
-          services?.map(({ title, icon, tags }, index) => (
+          services?.map(({ title, tags, description, gpa, year }, index) => (
             <ServicesCard
               key={index}
-              image={icon.asset.url}
-              title={title}
               tags={tags}
+              gpa={gpa}
+              year={year}
+              title={title}
+              description={description}
             />
           ))}
       </div>
