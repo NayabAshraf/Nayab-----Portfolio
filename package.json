@@ -1,6 +1,6 @@
 {
   "name": "animatedportfolio",
-  "homepage": "https://developerjunaid.com/",
+  "homepage": "https://github.com/NayabAshraf/Nayab---portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +24,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts  --openssl-legacy-provider build",
     "test": "react-scripts test",
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
