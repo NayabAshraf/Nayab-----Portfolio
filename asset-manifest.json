@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/NayabAshraf/Nayab---portfolio/static/css/main.db65a1ab.css",
-    "main.js": "/NayabAshraf/Nayab---portfolio/static/js/main.6d0886a8.js",
-    "index.html": "/NayabAshraf/Nayab---portfolio/index.html",
-    "main.db65a1ab.css.map": "/NayabAshraf/Nayab---portfolio/static/css/main.db65a1ab.css.map",
-    "main.6d0886a8.js.map": "/NayabAshraf/Nayab---portfolio/static/js/main.6d0886a8.js.map"
+    "main.css": "/Nayab---portfolio/static/css/main.db65a1ab.css",
+    "main.js": "/Nayab---portfolio/static/js/main.6d0886a8.js",
+    "index.html": "/Nayab---portfolio/index.html",
+    "main.db65a1ab.css.map": "/Nayab---portfolio/static/css/main.db65a1ab.css.map",
+    "main.6d0886a8.js.map": "/Nayab---portfolio/static/js/main.6d0886a8.js.map"
   },
   "entrypoints": [
     "static/css/main.db65a1ab.css",
