@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import { Heading } from "components/Heading/Heading";
+import { Heading } from "../Heading/Heading";
 import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
 const Portfolio = ({ projects }) => {

@@ -4,8 +4,8 @@ import React from "react";
 import "./services.css";
 
 // Card
-import { ServicesCard } from "components/Services/ServicesCard/ServicesCard";
-import { Heading } from "components/Heading/Heading";
+import { ServicesCard } from "./ServicesCard/ServicesCard";
+import { Heading } from "../Heading/Heading";
 
 const Services = ({ services }) => {
   return (

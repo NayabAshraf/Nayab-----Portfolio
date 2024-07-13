@@ -3,12 +3,12 @@ import React, { useEffect, useState } from "react";
 // Components
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Nav from "components/Nav/Nav";
-import Home from "components/Home/Home";
-import Menu from "components/Menu/Menu";
-import Portfolio from "components/Portfolio";
-import Footer from "components/Footer/Footer";
-import Services from "components/Services/Services";
+import Nav from "./components/Nav/Nav";
+import Home from "./components/Home/Home";
+import Menu from "./components/Menu/Menu";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer/Footer";
+import Services from "./components/Services/Services";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);

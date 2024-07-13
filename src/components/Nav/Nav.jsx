@@ -8,7 +8,7 @@ import { animateScroll as scroll } from "react-scroll";
 import "./nav.css";
 
 // Components
-import MenuIcon from "components/Menu/MenuIcon/MenuIcon";
+// import MenuIcon from "../Menu/MenuIcon";
 
 const Nav = ({ menuOpen, setMenuOpen }) => {
   const handleClick = () => {
@@ -37,7 +37,7 @@ const Nav = ({ menuOpen, setMenuOpen }) => {
           Nayab Ashraf
         </span>
 
-        <MenuIcon handleClick={handleClick} menuOpen={menuOpen} />
+        {/* <MenuIcon handleClick={handleClick} menuOpen={menuOpen} /> */}
       </motion.div>
     </div>
   );

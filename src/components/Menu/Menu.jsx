@@ -1,7 +1,7 @@
 import React from "react";
 import "./menu.css";
 // Router
-import { NavLink } from "components/Nav/NavLink/NavLink";
+import { NavLink } from "../Nav/NavLink/NavLink";
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
   return (
